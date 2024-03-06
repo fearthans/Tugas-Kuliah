@@ -17,10 +17,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Route::get('login', function () {
     return view('login');
 });
 
 Route::get('registrasi', function () {
     return view('registrasi');
+});
+
+Route::get('halaman', function () {
+    return view('halaman');
 });
